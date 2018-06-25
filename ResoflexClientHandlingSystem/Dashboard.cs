@@ -23,5 +23,10 @@ namespace ResoflexClientHandlingSystem
 
             frm.Show();
         }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            metroProgressSpinner1.Value = 75;
+        }
     }
 }
