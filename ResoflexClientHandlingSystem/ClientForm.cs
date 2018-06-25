@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ResoflexClientHandlingSystem
 {
-    public partial class MainForm : MetroFramework.Forms.MetroForm
+    public partial class ClientForm : MetroFramework.Forms.MetroForm
     {
-        public MainForm()
+        public ClientForm()
         {
             InitializeComponent();
         }
