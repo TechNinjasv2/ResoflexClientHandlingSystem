@@ -28,5 +28,12 @@ namespace ResoflexClientHandlingSystem
         {
             metroProgressSpinner1.Value = 75;
         }
+
+        private void metroTile2_Click(object sender, EventArgs e)
+        {
+            ProjectForm frm = new ProjectForm();
+
+            frm.Show();
+        }
     }
 }
