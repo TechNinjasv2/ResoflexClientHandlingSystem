@@ -11,11 +11,12 @@ namespace ResoflexClientHandlingSystem.Core
 {
     class Database
     {
-        public static void saveBag(Client client)
+        public static void saveClient(Client client)
         {
             try
             {
-                DBConnection.updateDB("insert into bag (deptNo, date, bagNo) values ()");
+                //This is just an example until prabudda push his classes
+                DBConnection.updateDB("insert into client (name, tel, add) values ()");
             }
             catch (Exception)
             {
