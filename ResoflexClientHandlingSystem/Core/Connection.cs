@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
-namespace Isabella
+namespace ResoflexClientHandlingSystem.Core
 {
     class DBConnection
     {
-        private static string connString = string.Format("Server=localhost; database=Isabella; UID=root; password=; SSLMode=none");
+        private static string connString = string.Format("Server=localhost; database=ResoflexClientHandlingSystem; UID=root; password=; SSLMode=none");
         private static MySqlConnection conn = new MySqlConnection(connString);
         private static MySqlConnection tmpConn = null;
 
