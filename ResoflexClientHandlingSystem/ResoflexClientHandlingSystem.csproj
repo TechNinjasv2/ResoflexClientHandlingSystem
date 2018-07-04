@@ -82,6 +82,9 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Role\Client.cs" />
+    <Compile Include="Role\Expense.cs" />
+    <Compile Include="Role\Project.cs" />
+    <Compile Include="Role\Visit.cs" />
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
