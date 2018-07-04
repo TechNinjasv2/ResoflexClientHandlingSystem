@@ -8,6 +8,6 @@ namespace ResoflexClientHandlingSystem.Role
 {
     class Client
     {
-
+        //dede
     }
 }
