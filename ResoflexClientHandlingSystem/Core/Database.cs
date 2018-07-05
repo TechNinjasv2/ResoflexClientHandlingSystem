@@ -15,7 +15,6 @@ namespace ResoflexClientHandlingSystem.Core
         {
             try
             {
-                //This is just an example until prabudda push his classes
                 DBConnection.updateDB("insert into client (name, tel, add) values ()");
             }
             catch (Exception)
